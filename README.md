@@ -5,6 +5,12 @@ Input moves in Algebraic Notation (`f3`, `Qh4`, `R4e6`, `O-O-O`, etc), or in a p
 Castling and en passant can be input in Algebraic Notation as above, or in from-to notation for the king or pawn being moved.
 In all cases, pawn promotion uses `=` syntax, for instance `c8=Q` or `b7c8=Q`.
 
+# usage
+
+Clone the repository, install dependencies with `npm install`, and run the game with `npm run start`.
+
+Games can be recreated or resumed from a list of moves, as seen in `index.ts` using `restoreGameFromMoves()`, but this is not supported from the cli yet.
+
 # sample play:
 
 ```
